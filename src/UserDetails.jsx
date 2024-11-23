@@ -12,6 +12,7 @@ const UserDetails = () => {
   return (
     <div className="user">
       <img src={user.personal.profilePic} alt="an AI generated image of an origami animal" />
+      <br/>
       <h2>{user.personal.lastName}, {user.personal.firstName}</h2>
       <h4>They drive a {user.cars[0].make}</h4>
     </div>  
